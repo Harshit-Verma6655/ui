@@ -4,13 +4,28 @@ import logo from '../assets/Screenshot 2024-02-12 193227.png'
 
 export const HeroSection = () => {
     let [index, setIndex] = useState(0);
+    let [X, setX] = useState();
+    let [Y, setY] = useState();
     const arr = [logo, "https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1490381541006-5611e864dfc0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://media.istockphoto.com/id/1295935658/photo/armchairs-and-coffee-table-in-classic-black-interior.jpg?s=1024x1024&w=is&k=20&c=FnTFJ13ke4GxSlUSmxqkNEtFDdEDJOJmItBVq7N4Yxc="]
 
+    function handlecursor(e) {
+        console.log(e);
+        setX(e.pageX);
+        setY(e.pageY);
+    }
+
     return (
+
         <section
             id="home"
             className="w-full px-12 flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container  "
+            onMouseMove={(e) => {
+                handlecursor(e);
+            }}
         >
+            <div className={`h-5 w-5 border-2 rounded-full border-white bg-white bg-opacity-5 absolute pointer-events-none `} style={{ top: `${Y + "px"}`, left: `${X + "px"}` }}>
+
+            </div>
             <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-10 md:pt-20 ">
                 <p className="text-xl text-white font-montserrat text-coral-red">
 

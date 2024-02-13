@@ -22,20 +22,21 @@ function App() {
 
   return (
 
-    <div className='w-screen flex justify-center items-center  cursor-none'
+    <div className='w-screen flex justify-center items-center relative cursor-none'
       onMouseMove={(e) => {
         handlecursor(e);
       }}
     >
-
-      <div className='max-w-[1250px] w-screen flex flex-col justify-center items-center relative'
+      <div className={`h-6 w-6  z-100 rounded-full  bg-white bg-opacity-50  absolute pointer-events-none `} style={{ top: `${Y + "px"}`, left: `${X + "px"}` }}
 
       >
-        <div className={`h-6 w-6  z-100 rounded-full  bg-white bg-opacity-50  absolute pointer-events-none `} style={{ top: `${Y + "px"}`, left: `${X + "px"}` }}
 
-        >
+      </div>
 
-        </div>
+      <div className='max-w-[1250px] w-screen flex flex-col justify-center items-center '
+
+      >
+
 
         <Header />
         <HeroSection />

@@ -3,7 +3,7 @@ import React from 'react'
 function Explore() {
     return (
         <div className='flex flex-col justify-center items-center my-10'>
-            <div className='my-8 flex '>
+            <div className='my-8 sm:flex-row flex flex-col '>
                 <div className='img1 w-[500px] h-[500px]  px-6 flex flex-col justify-center'>
                     <div className='flex flex-col justify-center text-xs '>
                         <p className='text-yellow-300 flex justify-between mb-3'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Invest() {
     return (
-        <div className='mb-8 px-12'>
+        <div className='mb-8 px-6'>
 
             <h1 className='text-white text-3xl font-bold mb-12 mt-16'>
                 INVEST IN <span className='text-yellow-300'>DUBAI</span>

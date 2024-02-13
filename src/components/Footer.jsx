@@ -4,8 +4,8 @@ import logo from '../assets/2.png';
 import uni from '../assets/unified.png';
 function Footer() {
     return (
-        <div className='px-[20px] pt-[110px] w-full' >
-            <div className='h-[300px] w-full flex box-border justify-center gap-[90px]'>
+        <div className='px-[20px] pt-[110px] w-full z-20' >
+            <div className='h-[300px] w-full flex box-border flex-col sm:flex-row justify-center gap-[90px]'>
                 <div >
                     <p className=" font-palanquin max-sm:text-[45px] max-sm:leading-[60px]  z-1 max-lg:z-0 leading-12 ">
                         <p className='text-white text-xl mb-3 flex items-center gap-2'><img width={60} src={uni} />Unified Investments</p>

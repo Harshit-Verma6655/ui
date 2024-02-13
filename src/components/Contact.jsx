@@ -3,14 +3,14 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div className='bg-gray-900 w-full h-[600px] px-5 mb-[80px] relative'>
+        <div className='bg-gray-900 w-full h-[500px] -z-10 px-5 mb-[80px] relative'>
             <section
                 id="home"
-                className="w-full flex xl:flex-row flex-col items-center min-h-screen max-container  "
+                className="w-full flex sm:flex-row flex-col z-0 items-center justify-center pt-20  "
             >
-                <div className=" xl:w-2/5 flex mt-3 pl-12 flex-col justify-center items-start w-full   ">
+                <div className="  flex mt-3 pl-12 flex-col justify-center  w-full   ">
 
-                    <h1 className=" font-palanquin text-6xl max-sm:text-[45px] max-sm:leading-[60px]  z-1 max-lg:z-0 leading-12 ">
+                    <h1 className=" font-palanquin text-6xl max-sm:text-[45px] max-sm:leading-[60px]   max-lg:z-0 leading-12 ">
                         <span className=" text-white   rounded-full text-5xl ">
 
                             <span className='text-slate-600 font-bold'>Let's Get In</span><span className='text-yellow-800 font-bold'>Touch With Us</span>
@@ -29,36 +29,37 @@ function Contact() {
                             <svg className="w-[45px] h-[45px] text-yellow-800 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                 <path fill-rule="evenodd" d="M12 2a8 8 0 0 1 6.6 12.6l-.1.1-.6.7-5.1 6.2a1 1 0 0 1-1.6 0L6 15.3l-.3-.4-.2-.2v-.2A8 8 0 0 1 11.8 2Zm3 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" clip-rule="evenodd" />
                             </svg>
-                            Unified Investments, 2nd floor, Al Amal St-Business Bay-Dubai, United Arab Emirates</p>
+                            Unified Investments, 2nd floor, <br />Al Amal St-Business Bay-Dubai, United Arab Emirates</p>
                     </h1>
 
                 </div>
 
-                <div className=" relative flex-1 flex justify-center items-center   ">
+                <div className="  flex-1 flex justify-center items-center z-0   ">
                     <img
                         src={"https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
                         alt="quizzahut"
                         width={400}
+                        className='absolute top-16 right-[120px]'
                     />
                     <img
                         src={"https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
                         alt="quizzahut"
                         width={400}
 
-                        className='absolute top-7 right-[100px]'
+                        className='absolute top-20 right-[100px]'
                     />
                     <img
                         src={"https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
                         alt="quizzahut"
                         width={400}
 
-                        className='absolute top-16 right-[50px]'
+                        className='absolute top-24 right-[80px]'
                     />
 
                 </div>
             </section>
-            <div className='absolute w-full flex justify-center bg-yellow-500 '>
-                <div className='absolute w-[85%] h-[120px] bg-yellow-500 -bottom-16 flex items-center justify-around text-5xl font-bold'>
+            <div className='absolute z-0 w-full flex justify-center bg-yellow-500 bottom-10'>
+                <div className='absolute  sm:w-[85%] w-full h-[120px] bg-yellow-500  flex items-center justify-around text-5xl font-bold'>
                     <p className='text-2xl text-yellow-900'>Media &<br />
                         Publications</p>
                     <p>Forbes</p>

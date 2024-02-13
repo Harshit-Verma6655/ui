@@ -29,8 +29,8 @@ export const HeroSection = () => {
                     <div className='div'></div>
 
 
-                    <h1 className=" font-palanquin text-3xl sm:text-6xl  w-full font-bold z-1  leading-12 ">
-                        <span className=" text-white  z-10  rounded-full text-5xl ">
+                    <h1 className=" font-palanquin   w-full font-bold z-1  leading-12 ">
+                        <span className=" text-white  z-10  rounded-full text-4xl sm:text-6xl ">
 
                             <span className='text-slate-600'>Empower Your<br />
                                 Business</span><span className='text-yellow-800'>FINANCE</span>

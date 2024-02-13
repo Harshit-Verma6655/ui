@@ -23,7 +23,7 @@ function Header() {
             <div className='logo sm:mr-12 invisible sm:visible'>
                 <img src='	https://html.themexriver.com/Orixy/assets/img/logo/logo1.png' />
             </div>
-            <ul className='flex sm:gap-10 font-[400] sm:text-base text-sm ' >
+            <ul className='flex sm:gap-10 font-[400] sm:text-base text-sm w-full ' >
                 <li className='hover:bg-white hover:text-black font-bold py-1 px-2 rounded cursor-pointer '>COMPANY</li>
 
                 <li className='hover:bg-white font-bold relative item hover:text-black py-1 px-2 rounded cursor-pointer'

@@ -10,7 +10,7 @@ export const HeroSection = () => {
 
 
     return (
-        <div className='w-screen flex box-border justify-center items-center'>
+        <div className='w-full flex box-border justify-center items-center'>
             <section
 
                 className=" flex sm:flex-row w-full flex-col cursor-none items-center justify-center  gap-10  "
@@ -29,11 +29,11 @@ export const HeroSection = () => {
                     <div className='div'></div>
 
 
-                    <h1 className=" font-palanquin text-6xl   font-bold z-1  leading-12 ">
+                    <h1 className=" font-palanquin text-5xl  w-full font-bold z-1  leading-12 ">
                         <span className=" text-white  z-10  rounded-full text-5xl ">
 
                             <span className='text-slate-600'>Empower Your<br />
-                                Business</span><span className='text-yellow-800'>FINANCES</span>
+                                Business</span><span className='text-yellow-800'>FINANCE</span>
                         </span>
                         <br />
                         <span className="text-yellow-100 text-sm font-thin   inline mt-3  border-box ">
@@ -45,7 +45,7 @@ export const HeroSection = () => {
                     </button>
                 </div>
 
-                <div className=" relative  text-center mb-8 flex justify-center items-center w-full  ">
+                <div className=" relative  text-center mb-8 flex justify-center items-center w-fit  ">
                     <button className='bg-white cursor-none bg-opacity-40 px-4 py-1 font-black rounded-full top-[200px] absolute left-[100px]  z-30 '
                         onClick={() => {
 

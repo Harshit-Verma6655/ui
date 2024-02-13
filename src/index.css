@@ -64,6 +64,7 @@ body{
   background-image: url("https://media.istockphoto.com/id/1295935658/photo/armchairs-and-coffee-table-in-classic-black-interior.jpg?s=1024x1024&w=is&k=20&c=FnTFJ13ke4GxSlUSmxqkNEtFDdEDJOJmItBVq7N4Yxc=");
   background-size:cover ;
   background-position: center;
+  width: 100%;
 }
 .drop li a{
   text-transform: uppercase;
@@ -206,11 +207,16 @@ height: 100%;
 width: 500px;
 top: 0;
 transition: .5s;
-
+visibility: hidden;
 }
 .outer:hover::after{
   background: black;
   opacity: 0.6;
+  visibility: visible;
+
+}
+.outer{
+  overflow: hidden;
 }
 .img-text{
   padding: 20px;

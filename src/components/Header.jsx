@@ -14,16 +14,16 @@ function Header() {
 
     return (
 
-        <div className='flex sticky top-0 z-40 justify-between w-full px-24  h-28 items-center  text-white bg-black cursor-default '
+        <div className='flex sticky top-0 z-40 justify-center w-full sm:px-24  h-28 items-center  text-white bg-black cursor-default '
 
         >
 
 
 
-            <div className='logo mr-12 invisible sm:visible'>
+            <div className='logo sm:mr-12 invisible sm:visible'>
                 <img src='	https://html.themexriver.com/Orixy/assets/img/logo/logo1.png' />
             </div>
-            <ul className='flex gap-10 font-[400] text-base'>
+            <ul className='flex sm:gap-10 font-[400] sm:text-base text-sm ' >
                 <li className='hover:bg-white hover:text-black font-bold py-1 px-2 rounded cursor-pointer '>COMPANY</li>
 
                 <li className='hover:bg-white font-bold relative item hover:text-black py-1 px-2 rounded cursor-pointer'

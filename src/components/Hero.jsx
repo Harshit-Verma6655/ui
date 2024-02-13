@@ -10,14 +10,14 @@ export const HeroSection = () => {
 
 
     return (
-        <div className='w-full flex  justify-center items-center'>
+        <div className='w-screen flex  justify-center items-center'>
             <section
 
-                className=" flex sm:flex-row flex-col cursor-none items-center justify-center  gap-10  "
+                className=" flex sm:flex-row w-full flex-col cursor-none items-center justify-center  gap-10  "
 
             >
 
-                <div className="relative wrapper  sm:w-2/5 flex flex-col justify-center items-start max-xl:padding-x pt-10 md:pt-20 ">
+                <div className="relative wrapper w-screen border-box pl-4 sm:w-2/5 flex flex-col justify-center items-start  pt-10 md:pt-20 ">
                     <div className='div'></div>
                     <div className='div'></div>
                     <div className='div'></div>
@@ -29,23 +29,23 @@ export const HeroSection = () => {
                     <div className='div'></div>
 
 
-                    <h1 className=" font-palanquin text-6xl max-sm:text-[55px] max-sm:leading-[60px] font-bold z-1 max-lg:z-0 leading-12 ">
-                        <span className=" text-white relative z-10 pr-10 rounded-full text-5xl ">
+                    <h1 className=" font-palanquin text-6xl   font-bold z-1  leading-12 ">
+                        <span className=" text-white  z-10 pr-10 rounded-full text-5xl ">
 
                             <span className='text-slate-600'>Empower Your<br />
                                 Business</span><span className='text-yellow-800'>FINANCES</span>
                         </span>
                         <br />
-                        <span className="text-yellow-100 text-sm font-thin  inline-block mt-3 pr-3 ">
+                        <span className="text-yellow-100 text-sm font-thin  inline-block mt-3 px-3 ">
                             Your Expert Partner in swift Business Financing, Bridging Gaps, and Ensuring success. Thrive with us.
                         </span>
                     </h1>
-                    <button className="font-montserrat text-yellow-300 text-sm leading-8 mt-6 mb-14 ">
+                    <button className="font-montserrat pl-6 text-yellow-300 text-sm leading-8 mt-6 mb-14 ">
                         Discover more
                     </button>
                 </div>
 
-                <div className=" relative flex-1 text-center flex justify-center items-center w-fit  ">
+                <div className=" relative  text-center mb-8 flex justify-center items-center w-full  ">
                     <button className='bg-white cursor-none bg-opacity-40 px-2 py-1 font-bold rounded-full top-[300px] absolute left-[50px]  z-30 '
                         onClick={() => {
 
@@ -61,9 +61,9 @@ export const HeroSection = () => {
                     <img
                         src={arr[index]}
                         alt="quizzahut"
-                        width={610}
-                        height={500}
-                        className=" relative -z-30 "
+
+
+                        className=" relative h-[380px] -z-30 sm:w-[610px] w-full"
                     />
                     <button className='bg-white cursor-none bg-opacity-40 absolute px-2 py-1 font-bold rounded-full right-[50px] top-[300px]  z-30  '
                         onClick={() => {

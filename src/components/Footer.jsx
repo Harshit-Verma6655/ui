@@ -4,11 +4,11 @@ import logo from '../assets/2.png';
 import uni from '../assets/unified.png';
 function Footer() {
     return (
-        <div className='px-[20px] pt-[110px] w-full z-20' >
+        <div className='px-[20px] pt-[110px] w-full z-20 mt-96 sm:mt-0' >
             <div className='h-[300px] w-full flex box-border flex-col sm:flex-row justify-center gap-[90px]'>
                 <div >
-                    <p className=" font-palanquin max-sm:text-[45px] max-sm:leading-[60px]  z-1 max-lg:z-0 leading-12 ">
-                        <p className='text-white text-xl mb-3 flex items-center gap-2'><img width={60} src={uni} />Unified Investments</p>
+                    <p className=" font-palanquin    z-1 max-lg:z-0 leading-12 ">
+                        <p className='text-white text-sm sm:text-xl mb-3 flex items-center gap-2'><img width={60} src={uni} />Unified Investments</p>
                         <p className='text-gray-600'>Interior Design Center Inc. A USA based<br /> Photo Editing Company in Tokyo, <br />Japan. Corporation No. 524172-2, Check here</p>
                         <br />
                         <p className='text-base text-gray-600 my-3 flex'>

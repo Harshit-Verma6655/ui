@@ -154,7 +154,7 @@ visibility: visible;
 }
 .wrapper .div:nth-child(6){
   top:100%;
-  left: 90%;
+  left: 73%;
   animation: square 9s linear infinite;
   box-shadow: 2px 2px 10px 7px rgb(234, 236, 238) ;
 }

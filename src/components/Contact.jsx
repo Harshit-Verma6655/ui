@@ -34,7 +34,7 @@ function Contact() {
 
                 </div>
 
-                <div className="  flex-1 flex justify-center items-center z-0   ">
+                <div className="  flex-1 flex justify-center items-center z-0  invisible sm:visible  ">
                     <img
                         src={"https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
                         alt="quizzahut"
@@ -58,9 +58,9 @@ function Contact() {
 
                 </div>
             </section>
-            <div className='absolute z-0 w-full flex justify-center bg-yellow-500 bottom-10'>
-                <div className='absolute  sm:w-[85%] w-full h-[120px] bg-yellow-500  flex items-center justify-around text-5xl font-bold'>
-                    <p className='text-2xl text-yellow-900'>Media &<br />
+            <div className=' z-0 w-full flex justify-center bg-yellow-500 '>
+                <div className=' sm:absolute sm:w-[85%] w-full h-[120px] bg-yellow-500 -bottom-12 flex items-center justify-around sm:text-5xl font-bold'>
+                    <p className='sm:text-2xl  text-yellow-900'>Media &<br />
                         Publications</p>
                     <p>Forbes</p>
                     <p>Fortune</p>

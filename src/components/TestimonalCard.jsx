@@ -3,8 +3,8 @@ import React from 'react'
 
 function TestimonalCard() {
     return (
-        <div className='flex gap-3 items-center justify-center mb-20'>
-            <div className='flex  gap-3 w-[350px] justify-center '>
+        <div className='flex-col flex sm:flex-row gap-3 items-center justify-center mb-20'>
+            <div className='flex  gap-3 max-w-[350px] justify-center '>
                 <img className='rounded-full h-[70px] border-2 border-white w-[70px]' src='https://media.istockphoto.com/id/640021202/photo/portrait-of-a-cheerful-young-man.jpg?s=1024x1024&w=is&k=20&c=i7PSe3-kvpmUeVeVEObvQhXqEwLCkeULlyIqyb8v5uM=' />
                 <div className='text-5xl text-yellow-800 '>""<br />
                     <div className='flex'>

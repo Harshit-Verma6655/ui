@@ -29,7 +29,7 @@ export const HeroSection = () => {
                     <div className='div'></div>
 
 
-                    <h1 className=" font-palanquin text-5xl  w-full font-bold z-1  leading-12 ">
+                    <h1 className=" font-palanquin text-3xl sm:text-6xl  w-full font-bold z-1  leading-12 ">
                         <span className=" text-white  z-10  rounded-full text-5xl ">
 
                             <span className='text-slate-600'>Empower Your<br />

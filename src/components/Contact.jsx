@@ -3,12 +3,12 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div className='bg-gray-900 w-full h-[500px] -z-10 px-5 mb-[80px] relative'>
+        <div className='bg-gray-900 w-full h-[500px] cursor-default relative px-5 mb-[80px] '>
             <section
                 id="home"
-                className="w-full flex sm:flex-row flex-col z-0 items-center justify-center pt-20  "
+                className="w-full flex sm:flex-row flex-col z-0 items-center justify-center pt-20 gap-8 "
             >
-                <div className="  flex mt-3 pl-12 flex-col justify-center  w-full   ">
+                <div className="  flex mt-3 pl-12 flex-col justify-center   ">
 
                     <h1 className=" font-palanquin text-6xl max-sm:text-[45px] max-sm:leading-[60px]   max-lg:z-0 leading-12 ">
                         <span className=" text-white   rounded-full text-5xl ">
@@ -34,31 +34,34 @@ function Contact() {
 
                 </div>
 
-                <div className="  flex-1 flex justify-center items-center z-0  invisible sm:visible  ">
-                    <img
+                <div className="  flex-1 flex-col sm:flex-row justify-center items-center cursor-pointer    ">
+                    {/* <img
                         src={"https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
                         alt="quizzahut"
                         width={400}
-                        className='absolute top-16 right-[120px]'
+                        className='absolute top-16 right-[120px] contact cursor-pointer'
                     />
                     <img
                         src={"https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
                         alt="quizzahut"
                         width={400}
 
-                        className='absolute top-20 right-[100px]'
-                    />
-                    <img
-                        src={"https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
-                        alt="quizzahut"
-                        width={400}
+                        className='absolute top-20 right-[100px] '
+                    /> */}
+                    <div className='outer relative cursor-default'>
+                        <img
+                            src={"https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+                            alt="quizzahut"
 
-                        className='absolute top-24 right-[80px]'
-                    />
+
+                            className='image sm:w-[500px]'
+                        />
+                        <div className='img-text text-white text-lg font-bold  w-full '><h3>contact at 9458707401 <br />software developer </h3></div>
+                    </div>
 
                 </div>
             </section>
-            <div className=' z-0 w-full flex justify-center bg-yellow-500 '>
+            <div className='  w-full flex justify-center bg-yellow-500 '>
                 <div className=' sm:absolute sm:w-[85%] w-full h-[120px] bg-yellow-500 -bottom-12 flex items-center justify-around sm:text-5xl font-bold'>
                     <p className='sm:text-2xl  text-yellow-900'>Media &<br />
                         Publications</p>

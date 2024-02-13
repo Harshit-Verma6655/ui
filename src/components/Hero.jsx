@@ -10,14 +10,14 @@ export const HeroSection = () => {
 
 
     return (
-        <div className='w-screen flex  justify-center items-center'>
+        <div className='w-screen flex box-border justify-center items-center'>
             <section
 
                 className=" flex sm:flex-row w-full flex-col cursor-none items-center justify-center  gap-10  "
 
             >
 
-                <div className="relative wrapper w-screen border-box pl-4 sm:w-2/5 flex flex-col justify-center items-start  pt-10 md:pt-20 ">
+                <div className="relative wrapper w-full  border-box px-4 sm:w-2/5 flex flex-col justify-center items-start  pt-10 md:pt-20 ">
                     <div className='div'></div>
                     <div className='div'></div>
                     <div className='div'></div>
@@ -30,13 +30,13 @@ export const HeroSection = () => {
 
 
                     <h1 className=" font-palanquin text-6xl   font-bold z-1  leading-12 ">
-                        <span className=" text-white  z-10 pr-10 rounded-full text-5xl ">
+                        <span className=" text-white  z-10  rounded-full text-5xl ">
 
                             <span className='text-slate-600'>Empower Your<br />
                                 Business</span><span className='text-yellow-800'>FINANCES</span>
                         </span>
                         <br />
-                        <span className="text-yellow-100 text-sm font-thin  inline-block mt-3 px-3 ">
+                        <span className="text-yellow-100 text-sm font-thin   inline mt-3  border-box ">
                             Your Expert Partner in swift Business Financing, Bridging Gaps, and Ensuring success. Thrive with us.
                         </span>
                     </h1>

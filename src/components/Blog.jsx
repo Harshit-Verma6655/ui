@@ -2,7 +2,16 @@ import React from 'react'
 
 function Blog() {
     return (
-        <div className='px-12'>
+        <div className='px-12 wrapper relative'>
+            <div className='div'></div>
+            <div className='div'></div>
+            <div className='div'></div>
+            <div className='div'></div>
+            <div className='div'></div>
+            <div className='div'></div>
+            <div className='div'></div>
+            <div className='div'></div>
+            <div className='div'></div>
             <h1 className='text-yellow-400 text-3xl font-bold mt-10 mb-6 leading-10'>
                 OUR BLOGS
             </h1>

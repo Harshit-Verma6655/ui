@@ -46,7 +46,7 @@ export const HeroSection = () => {
                 </div>
 
                 <div className=" relative  text-center mb-8 flex justify-center items-center w-full  ">
-                    <button className='bg-white cursor-none bg-opacity-40 px-2 py-1 font-bold rounded-full top-[300px] absolute left-[50px]  z-30 '
+                    <button className='bg-white cursor-none bg-opacity-40 px-4 py-1 font-black rounded-full top-[200px] absolute left-[100px]  z-30 '
                         onClick={() => {
 
                             setIndex((prev) => {
@@ -65,7 +65,7 @@ export const HeroSection = () => {
 
                         className=" relative h-[380px] -z-30 sm:w-[610px] w-full"
                     />
-                    <button className='bg-white cursor-none bg-opacity-40 absolute px-2 py-1 font-bold rounded-full right-[50px] top-[300px]  z-30  '
+                    <button className='bg-white cursor-none bg-opacity-40 absolute px-4 py-1 font-black rounded-full right-[100px] top-[200px]  z-30  '
                         onClick={() => {
 
                             setIndex((prev) => {

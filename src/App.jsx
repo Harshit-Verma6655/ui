@@ -33,7 +33,7 @@ function App() {
 
       </div>
 
-      <div className='max-w-[1250px] w-screen flex flex-col justify-center items-center '
+      <div className='max-w-[1250px] w-screen flex flex-col justify-center items-center overflow-x-hidden '
 
       >
 

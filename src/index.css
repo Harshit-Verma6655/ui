@@ -36,6 +36,9 @@ width: 100vw;
   transition: transform 0.5s ease-in-out;
   
 }
+.nav{
+  transition: transform .6s ease ;
+}
 
 .card:hover::before{
   transform: translateX(35%);
@@ -191,7 +194,7 @@ visibility: visible;
     opacity: 1;
   }
   100%{
-    transform: scale(1.2) translateY(-100px) rotate(360deg);
+    transform: scale(1.2) translateY(-150px) rotate(360deg);
     opacity: 0;
   }
 }
@@ -231,3 +234,4 @@ visibility: hidden;
   transform: translateY(-30px);
  z-index: 1;
 }
+

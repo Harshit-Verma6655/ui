@@ -57,22 +57,17 @@ function Header() {
                 <li className='hover:bg-white hover:text-black py-1 px-2 rounded cursor-pointer font-bold'>JOURNAL</li>
                 <li className='hover:bg-white hover:text-black py-1 px-2 rounded cursor-pointer font-bold'>REACH US</li>
             </ul>
-            <div className='sm:hidden float-right relative '>
-                <svg className="w-[48px] h-[48px] text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            <div className={`sm:hidden float-right relative    `}>
+                <svg className="w-[48px] h-[48px] text-white lines" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     onClick={() => setOpen(!open)}
                 >
                     <path stroke="currentColor" stroke-linecap="round" stroke-width="2.7" d="M9 8h10M9 12h10M9 16h10M5 8h0m0 4h0m0 4h0" />
                 </svg>
-                {open && <ul className='flex-col flex sm:gap-10 font-[400] absolute top-12 right-0 bg-black  sm:text-base text-xs w-screen p-4  '   >
+                {<ul className={`flex-col flex z-40 sm:gap-10 font-[400] absolute top-12 right-0 bg-black  sm:text-base text-xs w-screen p-4 nav  ${open ? "translate-x-0 " : "translate-x-full "} `}  >
                     <li className='hover:bg-white hover:text-black font-bold py-1 px-2 rounded cursor-pointer '>COMPANY</li>
 
                     <li className='hover:bg-white font-bold relative item hover:text-black py-1 px-2 rounded cursor-pointer'
-                    // onMouseEnter={() => {
-                    //     setOpen(true);
-                    // }}
-                    // onMouseLeave={() => {
-                    //     setOpen(false)
-                    // }}
+
 
                     >INVESTORS
                         <svg className="w-[16px] h-[16px] inline-block ml-1 hover:text-black  text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">

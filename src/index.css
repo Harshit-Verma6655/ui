@@ -37,7 +37,7 @@ width: 100vw;
   
 }
 .nav{
-  transition: transform .7s linear ;
+  transition: transform .2s cubic-bezier(0.075, 0.82, 0.165, 1) ;
 }
 
 .card:hover::before{

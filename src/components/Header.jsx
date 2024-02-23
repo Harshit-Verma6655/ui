@@ -64,7 +64,7 @@ function Header() {
                 </svg> : <svg class="w-[48px] h-[48px] text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" onClick={() => setOpen(false)}>
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8" d="M6 18 18 6m0 12L6 6" />
                 </svg>}
-                {<ul className={`flex-col flex z-40 sm:gap-10 font-[400] absolute top-12 right-0 bg-black  sm:text-base text-xs w-screen p-4 nav  ${open ? "translate-x-0 " : "translate-x-full "} `}  >
+                {<ul className={`flex-col flex z-40 sm:gap-10 font-[400] absolute top-12 right-0 bg-black  sm:text-base text-xs w-screen p-4 nav  ${open ? "translate-x-[57%] " : "translate-x-full "} `}  >
                     <li className='hover:bg-white hover:text-black font-bold py-1 px-2 rounded cursor-pointer '>COMPANY</li>
 
                     <li className='hover:bg-white font-bold relative item hover:text-black py-1 px-2 rounded cursor-pointer'
